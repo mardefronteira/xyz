@@ -1,0 +1,116 @@
+:root {
+  --branco: #ffffff;
+  --cinzaClaro: #f8f8f8;
+  --cinza: #555555;
+  --preto: #000000;
+  font-size: 12px;
+}
+
+/*
+font-family: 'Assistant', sans-serif;
+font-weight:
+> 200 - extra-light
+> 300 - light
+> 400 - regular
+> 500 - medium
+> 600 - semi-bold
+> 700 - bold
+> 800 - extra-bold
+
+font-family: 'Kanit', sans-serif;
+font-weight:
+> 100 - thin
+> 200 - extra-light
+> 300 - light
+> 400 - regular
+> 500 - medium
+> 600 - semi-bold
+> 700 - bold
+> 800 - extra-bold
+> 900 - black
+
+font-family: 'Roboto Mono', monospace;
+font-weight:
+> 100 - thin
+> 200 - extra-light
+> 300 - light
+> 400 - regular
+> 500 - medium
+> 600 - semi-bold
+> 700 - bold
+*/
+
+body {
+  background-color: var(--branco);
+  color: var(--preto);
+  text-align: center;
+}
+
+.desc {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.titulo {
+  font-family: "Assistant", sans-serif;
+  font-weight: 500;
+  font-size: 3.75rem;
+}
+
+.subtitulo {
+  font-family: "Assistant", sans-serif;
+  font-weight: 600;
+  font-size: 2.08rem;
+}
+
+.menu {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-size: 1.16rem;
+}
+
+.contato {
+  font-family: "Assistant", sans-serif;
+  font-weight: 600;
+  font-size: 1.33rem;
+}
+
+.destaque {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+  font-size: 1.66rem;
+}
+
+.paragrafo {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-size: 1.33rem;
+}
+
+.logo {
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-size: 2.91rem;
+}
+
+.tag {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-size: 1.16rem;
+}
+
+.link {
+  font-variant: small-caps;
+  color: var(--cinza);
+}
+
+.projeto-menu {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.cinza {
+  color: var(--cinza);
+}
