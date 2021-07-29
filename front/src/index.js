@@ -26,7 +26,7 @@ ReactDOM.render(
       <Route path="/projeto/:id" component={Projeto}></Route>
       <Route path="/categoria/:id" component={Categoria}></Route>
       <Route path="/busca/:chave" component={Busca} />
-      <Route path="/" component={Inicial} exact />
+      <Route path="/" component={App} exact />
       <Route component={QuatroZeroQuatro} />
     </Switch>
   </BrowserRouter>,

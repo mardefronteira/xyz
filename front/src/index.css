@@ -114,3 +114,20 @@ body {
 .cinza {
   color: var(--cinza);
 }
+
+@keyframes slide1 {
+  0% {
+    left: -100vw;
+  }
+  100% {
+    left: 250vw;
+  }
+}
+@keyframes slide2 {
+  0% {
+    left: -100vw;
+  }
+  100% {
+    left: 250vw;
+  }
+}

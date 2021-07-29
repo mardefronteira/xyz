@@ -1,11 +1,13 @@
 import "./App.css";
 import Menu from "./componentes/Menu/index";
 import Base from "./componentes/Base/index";
+import Carrossel from "./componentes/Carrossel/index";
 
 function App() {
   return (
     <div className="App">
       <Base>
+        <Carrossel />
         <header className="App-header">
           <p className="menu">Aqui vai um belíssimo menu</p>
           <h1 className="titulo">
