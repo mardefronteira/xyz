@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
 
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Sobre from "./paginas/Sobre";
@@ -26,7 +25,7 @@ ReactDOM.render(
       <Route path="/projeto/:id" component={Projeto}></Route>
       <Route path="/categoria/:id" component={Categoria}></Route>
       <Route path="/busca/:chave" component={Busca} />
-      <Route path="/" component={App} exact />
+      <Route path="/" component={Inicial} exact />
       <Route component={QuatroZeroQuatro} />
     </Switch>
   </BrowserRouter>,

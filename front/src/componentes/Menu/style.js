@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const FundoMenu = styled.div`
   width: 100%;
@@ -20,7 +21,7 @@ export const FundoMenu = styled.div`
   border-bottom: 2px solid var(--cinza);
 `;
 
-export const LogoMenu = styled.a`
+export const LogoMenu = styled(Link)`
   color: inherit;
   font-family: "Kanit", sans-serif;
   font-weight: 700;
@@ -41,7 +42,7 @@ export const LinguaMenu = styled.button`
   background: none;
 `;
 
-export const LinkMenu = styled.a`
+export const LinkMenu = styled(Link)`
   color: inherit;
   font-family: "Roboto Mono", monospace;
   font-weight: 400;

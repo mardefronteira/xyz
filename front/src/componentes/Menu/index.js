@@ -6,10 +6,10 @@ import { FundoMenu, LinkMenu, LogoMenu, NavMenu, LinguaMenu } from "./style";
 const Menu = () => {
   return (
     <FundoMenu>
-      <LogoMenu href="">MARCELA MANCINO</LogoMenu>
+      <LogoMenu to="/">MARCELA MANCINO</LogoMenu>
       <NavMenu>
-        <LinkMenu>sobre</LinkMenu>
-        <LinkMenu>agenda</LinkMenu>
+        <LinkMenu to="/sobre">sobre</LinkMenu>
+        <LinkMenu to="/agenda">agenda</LinkMenu>
         <LinkMenu>
           <LinguaMenu id="lingua-br">br</LinguaMenu>|
           <LinguaMenu id="lingua-en" className="cinza">
