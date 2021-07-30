@@ -5,6 +5,7 @@ export const ConteinerCards = styled.div`
   justify-content: space-around;
   align-items: center;
   width: 100%;
+  height: auto;
   margin: 0;
   padding: 0;
 `;
@@ -23,4 +24,13 @@ export const FundoCarrossel = styled.div`
   padding: 5vh 0;
   width: 100%;
   height: auto;
+`;
+
+export const SetaCarrossel = styled.button`
+  font-family: "Assistant", sans-serif;
+  font-weight: 800;
+  font-size: 5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
 `;

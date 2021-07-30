@@ -7,8 +7,8 @@ export const Subtitulo = styled.h3`
 `;
 
 export const FundoCard = styled.div`
-  width: 25vw;
-  height: 60vh;
+  width: 20vw;
+  height: auto;
   text-align: left;
 `;
 
@@ -16,4 +16,9 @@ export const Desc = styled.div`
   font-family: "Roboto Mono", monospace;
   font-weight: 500;
   font-size: 1rem;
+`;
+
+export const ImagemCard = styled.img`
+  width: 100%;
+  height: auto;
 `;

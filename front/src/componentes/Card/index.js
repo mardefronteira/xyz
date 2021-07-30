@@ -1,12 +1,13 @@
 //importar react
 import React from "react";
 // importar estilos
-import { FundoCard, Subtitulo, Desc } from "./style";
+import { FundoCard, Subtitulo, Desc, ImagemCard } from "./style";
 
-const Card = ({ imagem, titulo, desc }) => {
+const Card = ({ img, titulo, desc }) => {
+  console.log(img);
   return (
     <FundoCard>
-      <img src={imagem}></img>
+      <ImagemCard src={`/imagens/${img}`}></ImagemCard>
       <Subtitulo>{titulo}</Subtitulo>
       <Desc>{desc}</Desc>
     </FundoCard>
