@@ -63,5 +63,4 @@ export const NavMenu = styled.nav`
   position: fixed;
   right: 5%;
   width: 40vw;
-  height: 100%;
 `;

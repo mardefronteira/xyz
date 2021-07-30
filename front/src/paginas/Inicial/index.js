@@ -1,11 +1,15 @@
 import "./style.js";
+// importar componentes
 import Base from "../../componentes/Base/index";
 import Carrossel from "../../componentes/Carrossel/index";
+
+// importar dados db falsa
+import db from "../../mockDB";
 
 const Inicial = () => {
   return (
     <Base>
-      <Carrossel />
+      <Carrossel categoria={db} />
       <header className="App-header">
         <h1 className="titulo">
           OI EU SOU UM TÍTULO • OI EU SOU UM TÍTULO • OI EU SOU UM TÍTULO •

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const Subtitulo = styled.h3`
   font-family: "Assistant", sans-serif;
@@ -6,10 +7,19 @@ export const Subtitulo = styled.h3`
   font-size: 2.08rem;
 `;
 
-export const FundoCard = styled.div`
+export const FundoCard = styled(Link)`
   width: 20vw;
   height: auto;
   text-align: left;
+  text-decoration: none;
+  color: inherit;
+  padding: 4vh 2vw;
+  transition-duration: 0.7s;
+
+  &:hover,
+  &:focus {
+    box-shadow: 2px 2px 5px teal;
+  }
 `;
 
 export const Desc = styled.div`
