@@ -56,6 +56,23 @@ export const LinkMenu = styled(Link)`
   }
 `;
 
+export const BuscaMenu = styled.input`
+  color: inherit;
+  background: none;
+  border: 1px solid var(--preto);
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-size: 1.16rem;
+  text-decoration: none;
+  padding: 0.3vh 1vw;
+
+  &:hover,
+  &:focus {
+    color: var(--cinza);
+    font-weight: 500;
+  }
+`;
+
 export const NavMenu = styled.nav`
   display: flex;
   justify-content: space-around;
