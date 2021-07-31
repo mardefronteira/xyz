@@ -20,10 +20,12 @@ export const TituloAnimado = styled.h2`
 `;
 
 export const FundoCarrossel = styled.div`
-  background-color: var(--cinzaClaro);
+  background-color: ${(props) => `var(--${props.corFundo || "branco"})`};
   padding: 5vh 0;
   width: 100%;
   height: auto;
+
+  margin-bottom: 5vh;
 `;
 
 export const SetaCarrossel = styled.button`

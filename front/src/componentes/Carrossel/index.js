@@ -10,14 +10,14 @@ import {
   SetaCarrossel,
 } from "./style";
 
-const Carrossel = ({ categoria }) => {
+const Carrossel = ({ categoria, corFundo }) => {
   // pegar trabalhos da categoria como objeto
 
   // variável pra conter a posição do Carrossel
   const [pos, moverCarrossel] = DefinirPos(0);
 
   return (
-    <FundoCarrossel>
+    <FundoCarrossel corFundo={corFundo}>
       <TituloAnimado>
         • TÍTULO • TÍTULO • TÍTULO • TÍTULO •TÍTULO • TÍTULO • TÍTULO • TÍTULO •
       </TituloAnimado>
