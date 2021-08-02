@@ -7,7 +7,13 @@ const Rodape = () => {
   return (
     <FundoRodape>
       <NavRodape>
-        <LinkRodape>ig: @marcelamancino</LinkRodape>
+        <LinkRodape
+          href="https://instagram.com/marcelamancino"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          ig: @marcelamancino
+        </LinkRodape>
         {" | "}
         <LinkRodape>email: marcelamancino@pm.me</LinkRodape>
       </NavRodape>

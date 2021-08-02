@@ -1,7 +1,7 @@
 //importar react
 import React, { useState } from "react";
 // importar componentes
-import Card from "../Card/index";
+import CardProjeto from "../CardProjeto/index";
 // importar estilos
 import {
   FundoCarrossel,
@@ -30,21 +30,21 @@ const Carrossel = ({ categoria, corFundo }) => {
         >
           {"<"}
         </SetaCarrossel>
-        <Card
+        <CardProjeto
           img={categoria[pos].img}
           titulo={categoria[pos].titulo}
           desc={categoria[pos].desc}
-        ></Card>
-        <Card
+        ></CardProjeto>
+        <CardProjeto
           img={categoria[pos + 1].img}
           titulo={categoria[pos + 1].titulo}
           desc={categoria[pos + 1].desc}
-        ></Card>
-        <Card
+        ></CardProjeto>
+        <CardProjeto
           img={categoria[pos + 2].img}
           titulo={categoria[pos + 2].titulo}
           desc={categoria[pos + 2].desc}
-        ></Card>
+        ></CardProjeto>
         <SetaCarrossel
           className={pos < categoria.length - 3 ? "" : "invisivel"}
           onClick={() => {

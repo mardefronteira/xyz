@@ -3,7 +3,7 @@ import React from "react";
 // importar estilos
 import { FundoCard, Subtitulo, Desc, ImagemCard } from "./style";
 
-const Card = ({ img, titulo, desc }) => {
+const CardProjeto = ({ img, titulo, desc }) => {
   console.log(img);
   return (
     <FundoCard>
@@ -14,4 +14,4 @@ const Card = ({ img, titulo, desc }) => {
   );
 };
 
-export default Card;
+export default CardProjeto;

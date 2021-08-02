@@ -22,6 +22,7 @@ export const LinkRodape = styled.a`
   font-family: "Assistant", sans-serif;
   font-weight: 600;
   font-size: 1.33rem;
+  text-decoration: none;
 
   &:hover,
   &:focus {
